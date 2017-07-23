@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- AOSP-JDC -->
-  <project path="build" name="MainstageOS/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <!-- MainstageOS -->
+  
+   <project path="build" name="MainstageOS/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   </project>
+   <project path="frameworks/base" name="MainstageOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
+   <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
+   <project path="packages/apps/SnapdragonCamera" name="MainstageOS/packages_apps_SnapdragonCamera" remote="github" revision="aosp-7.1.2" />
+   <project path="packages/apps/MusicFX" name="MainstageOS/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
+   <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-7.1.2" />
+ 
+ <!-- AOSP-JDC -->
+
   <project path="build/blueprint" name="AOSP-JF-MM/platform_build_blueprint" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" />
   <project path="build/kati" name="AOSP-JF-MM/platform_build_kati" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" />
   <project path="build/soong" name="AOSP-JF-MM/platform_build_soong" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" >
@@ -41,7 +50,6 @@
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="frameworks/base" name="MainstageOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/hardware" name="AOSP-JF-MM/platform_frameworks_opt_hardware" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/net/ims" name="AOSP-JF-MM/platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -65,8 +73,6 @@
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
-  <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
-  <project path="packages/apps/SnapdragonCamera" name="MainstageOS/packages_apps_SnapdragonCamera" remote="github" revision="aosp-7.1.2" />
   <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/providers/ContactsProvider" name="AOSP-JF-MM/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/providers/DownloadProvider" name="AOSP-JF-MM/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -117,7 +123,6 @@
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery/" remote="github" revision="android-7.1" />
 
   <!-- Vendors -->
-  <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-7.1.2" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
