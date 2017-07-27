@@ -11,6 +11,7 @@
    <project path="packages/apps/SnapdragonCamera" name="MainstageOS/packages_apps_SnapdragonCamera" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/MusicFX" name="MainstageOS/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-7.1.2" />
+   <project path="packages/inputmethods/LatinIME" name="MainstageOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
  
  <!-- AOSP-JDC -->
 
@@ -73,7 +74,6 @@
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PackageInstaller" name="AOSP-JF-MM/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/PhoneCommon" name="AOSP-JF-MM/platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
-  <project path="packages/inputmethods/LatinIME" name="AOSP-JF-MM/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/providers/ContactsProvider" name="AOSP-JF-MM/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/providers/DownloadProvider" name="AOSP-JF-MM/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/providers/MediaProvider" name="AOSP-JF-MM/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
