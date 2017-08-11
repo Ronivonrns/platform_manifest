@@ -20,9 +20,6 @@
   <!-- Custom packages -->
   <include name="snippets/custom_packages.xml" />
 
-  <!-- Darwin packages (uncomment the line below if building on OS X) -->
-  <!-- <include name="snippets/darwin.xml" /> -->
-
   <!-- HALs -->
   <include name="snippets/hals.xml" />
 
