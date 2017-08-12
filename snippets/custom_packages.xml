@@ -6,6 +6,7 @@
    <project path="build" name="MainstageOS/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" >
    <copyfile src="core/root.mk" dest="Makefile" />
    </project>
+   <project path="frameworks/av" name="MainstageOS/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
    <project path="frameworks/base" name="MainstageOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/SnapdragonCamera" name="MainstageOS/packages_apps_SnapdragonCamera" remote="github" revision="aosp-7.1.2" />
@@ -50,7 +51,6 @@
   <project path="external/vulkan-validation-layers" name="AOSP-JF-MM/platform_external_vulkan-validation-layers" remote="github" revision="aosp-7.1.2" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/hardware" name="AOSP-JF-MM/platform_frameworks_opt_hardware" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/opt/net/ims" name="AOSP-JF-MM/platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
