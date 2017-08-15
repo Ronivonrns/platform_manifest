@@ -13,7 +13,7 @@
    <project path="packages/apps/MusicFX" name="MainstageOS/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-7.1.2" />
    <project path="packages/inputmethods/LatinIME" name="MainstageOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
- 
+   <project path="system/security" name="MainstageOS/platform_system_security" groups="pdk" remote="github" revision="aosp-7.1.2" />
  <!-- AOSP-JDC -->
 
   <project path="build/blueprint" name="AOSP-JF-MM/platform_build_blueprint" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2" />
@@ -84,7 +84,6 @@
   <project path="system/keymaster" name="AOSP-JF-MM/platform_system_keymaster" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/media" name="AOSP-JF-MM/platform_system_media" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/netd" name="AOSP-JF-MM/platform_system_netd" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="system/security" name="AOSP-JF-MM/platform_system_security" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/sepolicy" name="AOSP-JF-MM/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <project path="system/vold" name="AOSP-JF-MM/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2" />
 
