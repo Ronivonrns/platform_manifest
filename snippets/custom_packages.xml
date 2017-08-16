@@ -8,6 +8,7 @@
    </project>
    <project path="frameworks/av" name="MainstageOS/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2" />
    <project path="frameworks/base" name="MainstageOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2" />
+   <project path="packages/apps/Gallery2" name="MainstageOS/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/SnapdragonCamera" name="MainstageOS/platform_packages_apps_SnapdragonCamera" remote="github" revision="aosp-7.1.2" />
    <project path="packages/apps/MusicFX" name="MainstageOS/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
@@ -68,7 +69,6 @@
   <project path="packages/apps/ContactsCommon" name="AOSP-JF-MM/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/Exchange" name="AOSP-JF-MM/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/HTMLViewer" name="AOSP-JF-MM/platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
-  <project path="packages/apps/Gallery2" name="AOSP-JF-MM/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/KeyChain" name="AOSP-JF-MM/platform_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Nfc" name="AOSP-JF-MM/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2" />
