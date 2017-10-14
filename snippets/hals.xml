@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSP HALs -->
+  <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+<!--   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" /> -->
+<!--   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,pdk" /> -->
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
+<!--   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" /> -->
+  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
+  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk" />
+  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" />
+  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
+
+  <!-- Custom HALs -->
+  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/interfaces" name="AOSP-JF-MM/platform_hardware_interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/jdc-interfaces" name="AOSP-JF-MM/platform_hardware_jdc-interfaces" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/audio" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/display" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/bt" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/media" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/qcom/wlan" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-8.0-test" />
+  <project path="hardware/samsung" name="AOSP-JF-MM/platform_hardware_samsung" remote="github" revision="aosp-8.0-test" />
+
+  <!-- QCOM HALs -->
+  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-8.0-test" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8996-8.0-test" />
+  <project path="hardware/qcom/bt-caf" name="AOSP-JF-MM/platform_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="aosp-8.0-test-caf" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-8.0-test" />
+  <project path="hardware/qcom/display-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8996-8.0-test" />
+  <project path="hardware/qcom/display-caf/msm8998" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8998-8.0-test" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-8.0-test" />
+  <project path="hardware/qcom/media-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-8.0-test" />
+  <project path="hardware/qcom/wlan-caf" name="AOSP-JF-MM/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="aosp-8.0-test-caf" />
+
+</manifest>
