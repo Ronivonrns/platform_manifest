@@ -2,6 +2,31 @@
 <img src="https://github.com/MainstageOS/platform_manifest/blob/aosp-8.0.0/mos_logo.jpg" > 
 </p>
 
+Download the Source
+-------------------
+
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+
+
+Create mos folder
+----------------------
+
+    mkdir ~/mos
+    cd ~/mos
+	
+
+To initialize your local repository use
+---------------------------------------
+
+    repo init -u https://github.com/MainstageOS/platform_manifest.git -b aosp-8.0.0
+    
+
+Then to sync up:
+----------------
+
+    repo sync --force-sync -j8 --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken
+
+
 Credits
 -------
 * [**JDCTeam (Base)**](https://github.com/AOSP-JF-MM)
