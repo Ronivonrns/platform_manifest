@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="MainstageOS/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.0.0" />
   <project path="frameworks/base" name="MainstageOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-8.0.0" />
   <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.0.0" />
   <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-8.0.0" />
@@ -29,7 +30,6 @@
   <project path="external/selinux" name="AOSP-JF-MM/platform_external_selinux" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="aosp-8.0-test" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-8.0-test" />
-  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="system/bt" name="AOSP-JF-MM/platform_system_bt" groups="pdk" remote="github" revision="aosp-8.0-test" />
