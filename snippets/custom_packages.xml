@@ -20,7 +20,7 @@
   <project path="packages/apps/Settings" name="MainstageOS/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-8.0.0" />
   <project path="vendor/aosp" name="MainstageOS/platform_vendor_aosp" remote="github" revision="aosp-8.0.0" />
   <project path="device/mos/sepolicy" name="MainstageOS/platform_device_mos_sepolicy" remote="github" revision="aosp-8.0.0" />
-
+  <project path="hardware/libhardware" name="MainstageOS/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-8.0.0" />
   <!-- AOSP-JDC -->
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-8.0-test" />
   <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-8.0-test" />
